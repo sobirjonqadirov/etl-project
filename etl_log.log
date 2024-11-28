@@ -1,0 +1,46 @@
+2024-11-29 02:06:54,820 - INFO - ETL process started.
+2024-11-29 02:06:54,947 - ERROR - Database connection attempt 1 failed: 1045 (28000): Access denied for user 'sobirjon'@'localhost' (using password: YES)
+2024-11-29 02:06:59,968 - ERROR - Database connection attempt 2 failed: 1045 (28000): Access denied for user 'sobirjon'@'localhost' (using password: YES)
+2024-11-29 02:07:04,988 - ERROR - Database connection attempt 3 failed: 1045 (28000): Access denied for user 'sobirjon'@'localhost' (using password: YES)
+2024-11-29 02:07:04,988 - CRITICAL - Failed to connect to database after 3 attempts. Aborting ETL process.
+2024-11-29 02:07:09,989 - CRITICAL - Failed to connect to the database. Aborting ETL process.
+2024-11-29 02:07:55,963 - INFO - ETL process started.
+2024-11-29 02:07:56,055 - INFO - Successfully connected to the database!
+2024-11-29 02:07:56,055 - INFO - Processing file: Customers.csv into table: Customers
+2024-11-29 02:07:56,055 - INFO - Started processing file csv_files\Customers.csv (2.60 KB).
+2024-11-29 02:07:56,060 - INFO - Successfully loaded data from csv_files\Customers.csv. Rows: 50.
+2024-11-29 02:07:56,067 - INFO - Table 'Customers' created or already exists.
+2024-11-29 02:07:56,099 - INFO - Table 'Customers' truncated.
+2024-11-29 02:07:56,130 - INFO - Data from csv_files\Customers.csv successfully written to table 'Customers'. Total rows inserted: 50.
+2024-11-29 02:07:56,131 - INFO - Processing file: Orders.csv into table: Orders
+2024-11-29 02:07:56,131 - INFO - Started processing file csv_files\Orders.csv (2.87 KB).
+2024-11-29 02:07:56,132 - INFO - Successfully loaded data from csv_files\Orders.csv. Rows: 100.
+2024-11-29 02:07:56,143 - INFO - Table 'Orders' created or already exists.
+2024-11-29 02:07:56,174 - INFO - Table 'Orders' truncated.
+2024-11-29 02:07:56,229 - INFO - Data from csv_files\Orders.csv successfully written to table 'Orders'. Total rows inserted: 100.
+2024-11-29 02:07:56,229 - INFO - Processing file: Products.csv into table: Products
+2024-11-29 02:07:56,230 - INFO - Started processing file csv_files\Products.csv (1.10 KB).
+2024-11-29 02:07:56,231 - INFO - Successfully loaded data from csv_files\Products.csv. Rows: 30.
+2024-11-29 02:07:56,243 - INFO - Table 'Products' created or already exists.
+2024-11-29 02:07:56,271 - INFO - Table 'Products' truncated.
+2024-11-29 02:07:56,287 - INFO - Data from csv_files\Products.csv successfully written to table 'Products'. Total rows inserted: 30.
+2024-11-29 02:07:56,287 - INFO - Processing file: ShippingInfo.csv into table: ShippingInfo
+2024-11-29 02:07:56,288 - INFO - Started processing file csv_files\ShippingInfo.csv (4.81 KB).
+2024-11-29 02:07:56,289 - INFO - Successfully loaded data from csv_files\ShippingInfo.csv. Rows: 100.
+2024-11-29 02:07:56,300 - INFO - Table 'ShippingInfo' created or already exists.
+2024-11-29 02:07:56,330 - INFO - Table 'ShippingInfo' truncated.
+2024-11-29 02:07:56,373 - INFO - Data from csv_files\ShippingInfo.csv successfully written to table 'ShippingInfo'. Total rows inserted: 100.
+2024-11-29 02:07:56,373 - INFO - Processing file: StockLevels.csv into table: StockLevels
+2024-11-29 02:07:56,373 - INFO - Started processing file csv_files\StockLevels.csv (0.36 KB).
+2024-11-29 02:07:56,374 - INFO - Successfully loaded data from csv_files\StockLevels.csv. Rows: 30.
+2024-11-29 02:07:56,389 - INFO - Table 'StockLevels' created or already exists.
+2024-11-29 02:07:56,419 - INFO - Table 'StockLevels' truncated.
+2024-11-29 02:07:56,458 - INFO - Data from csv_files\StockLevels.csv successfully written to table 'StockLevels'. Total rows inserted: 30.
+2024-11-29 02:07:56,458 - INFO - Processing file: Suppliers.csv into table: Suppliers
+2024-11-29 02:07:56,458 - INFO - Started processing file csv_files\Suppliers.csv (0.58 KB).
+2024-11-29 02:07:56,459 - INFO - Successfully loaded data from csv_files\Suppliers.csv. Rows: 20.
+2024-11-29 02:07:56,469 - INFO - Table 'Suppliers' created or already exists.
+2024-11-29 02:07:56,497 - INFO - Table 'Suppliers' truncated.
+2024-11-29 02:07:56,508 - INFO - Data from csv_files\Suppliers.csv successfully written to table 'Suppliers'. Total rows inserted: 20.
+2024-11-29 02:07:56,509 - INFO - Database connection closed.
+2024-11-29 02:07:56,509 - INFO - ETL process completed.

@@ -1,0 +1,31 @@
+ProductID,Name,Category,Price,Stock
+P001,Laptop,Electronics,1200.99,15
+P002,Smartphone,Electronics,699.49,30
+P003,Wireless Mouse,Accessories,29.99,50
+P004,Keyboard,Accessories,49.99,40
+P005,Monitor,Electronics,199.99,25
+P006,USB Drive,Storage,14.99,100
+P007,External Hard Drive,Storage,79.99,60
+P008,Bluetooth Speaker,Audio,49.99,35
+P009,Webcam,Accessories,39.99,45
+P010,Headphones,Audio,89.99,20
+P011,Smart Watch,Wearable,199.99,25
+P012,Gaming Console,Gaming,499.99,12
+P013,Digital Camera,Electronics,349.99,18
+P014,Drone,Gadgets,999.99,10
+P015,3D Printer,Gadgets,499.49,8
+P016,Router,Networking,129.99,50
+P017,E-Reader,Electronics,109.99,30
+P018,Microwave,Appliances,59.99,20
+P019,Refrigerator,Appliances,899.99,12
+P020,Air Conditioner,Appliances,1199.99,10
+P021,Electric Kettle,Appliances,24.99,35
+P022,Vacuum Cleaner,Appliances,149.99,25
+P023,Washing Machine,Appliances,799.99,14
+P024,Dishwasher,Appliances,699.99,16
+P025,Television,Appliances,499.99,20
+P026,Sound Bar,Audio,249.99,30
+P027,Projector,Accessories,499.49,25
+P028,Coffee Maker,Appliances,79.99,18
+P029,Blender,Appliances,99.99,22
+P030,Toaster,Appliances,39.99,40
