@@ -68,7 +68,3 @@ All important steps, such as data loading, table creation, truncation, and data 
 ## Future Enhancements
 
 - **Support for additional file types**: Currently, the script processes `.csv` files, but you can easily modify the code to support other formats such as Excel (`.xlsx`).
-
-## License
-
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
